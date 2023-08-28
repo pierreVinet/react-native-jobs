@@ -37,6 +37,7 @@ const Home = () => {
               if (searchTerm) {
                 router.push(`/search/${searchTerm}`);
               }
+              setSearchTerm("");
             }}
           />
           <Popularjobs />
